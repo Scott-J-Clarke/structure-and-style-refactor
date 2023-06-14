@@ -4,10 +4,6 @@
     padding: 0; 
 }
 
-body {
-    background-color: #d9dcd6; 
-}
-
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,8 +16,7 @@ body {
     font-size: 48px;
 }
 
-/* How is this header div element different from the header element above? */
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -29,23 +24,20 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
+/* Put .header nav ul in with .header nav li. */
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* What does this a tag reference? */
+/* Reordered CSS rules in cascading order to match HTML order. */
+body {
+    background-color: #d9dcd6; 
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 .hero {
@@ -57,37 +49,17 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    /* Why is Calibri in white text? Should it be in quotations? sans-serif is not in quotes. */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-    /* Added color property (for text) to make CSS sheet concise. */
-    color: #ffffff;
+p {
+    font-size: 16px;
 }
 
-/* Removed color property from code block below. Simplified code with commas. */
+/* Removed color property from code block and put it with ".benefits". Simplified code with commas. */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
 }
@@ -124,6 +96,30 @@ p {
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    /* Why is Calibri in white text? Should it be in quotations? sans-serif is not in quotes. */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    /* Added color property to make CSS sheet concise. */
+    color: #ffffff;
 }
 
 .footer {
