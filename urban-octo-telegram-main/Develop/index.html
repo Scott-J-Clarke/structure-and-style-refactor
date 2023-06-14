@@ -9,7 +9,7 @@
     <title>Horiseon Homepage</title>
 </head>
 
-<!-- Removed .seo from style.css. Used CSS inline style since it is one element. -->
+<!-- Removed .seo from style.css and used CSS inline style instead. -->
 <body>
     <section class="header">
         <h1>Hori<span style="color:#d9dcd6;">seo</span>n</h1>
@@ -31,12 +31,12 @@
     <!-- Gave image an alt tag. -->
     <section class="hero" alt="business meeting"></section>
     
-    <main class="content">
+    <main class="contents">
 
         <!-- Gave each article an alt tag. -->
 
-        <!-- Gave this article id "search-engine-optimization." Header link now seems to work. -->
-        <article id="search-engine-optimization" class="search-engine-optimization">
+        <!-- Gave this article id "search-engine-optimization" so header link will work. -->
+        <article id="search-engine-optimization" class="content">
             <img src="./assets/images/search-engine-optimization.jpg" alt="SEO notebook" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -44,7 +44,7 @@
             </p>
         </article>
 
-        <article id="online-reputation-management" class="online-reputation-management">
+        <article id="online-reputation-management" class="content">
             <img src="./assets/images/online-reputation-management.jpg" alt="reputation graph" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
@@ -52,7 +52,7 @@
             </p>
         </article>
 
-        <article id="social-media-marketing" class="social-media-marketing">
+        <article id="social-media-marketing" class="content">
             <img src="./assets/images/social-media-marketing.jpg" alt="marketing meeting" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -66,7 +66,9 @@
     <aside class="benefits">
 
         <!-- Gave each section an alt tag. -->
-        <section class="benefit-lead">
+
+        <!-- Changed each section class to "benefit".  -->
+        <section class="benefit">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="funnel to money">
             <p>
@@ -74,7 +76,7 @@
             </p>
         </section>
 
-        <section class="benefit-brand">
+        <section class="benefit">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="lightbulb giving off light">
             <p>
@@ -82,7 +84,7 @@
             </p>
         </section>
 
-        <section class="benefit-cost">
+        <section class="benefit">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="small pile of coins">
             <p>
@@ -92,7 +94,7 @@
 
     </aside>
     
-    <!-- Replaced h2 tag with h4 tag. h4 is next in heading tag sequential order. -->
+    <!-- Replaced h2 tag with h4 tag. -->
     <footer class="footer">
         <h4>Made with ❤️️ by Horiseon</h4>
         <p>
