@@ -19,7 +19,7 @@ This project was written over several days with the help of some classmates.
 
 This website homepage can be viewed online at:
 
-[structure-and-style-refactor](URL )
+[structure-and-style-refactor](https://scott-j-clarke.github.io/structure-and-style-refactor/)
 
 ---
 
